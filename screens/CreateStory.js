@@ -107,7 +107,7 @@ export default class CreateStory extends Component {
                     { label: "Imagem 5", value: "image_5" }
                   ]}
                   defaultValue={this.state.previewImage}
-                 open={this.state.dropDownHeight == 170 ? true : false}
+                 open={this.state.dropdownHeight == 170 ? true : false}
                   onOpen={() => {
                     this.setState({ dropdownHeight: 170 });
                   }}
